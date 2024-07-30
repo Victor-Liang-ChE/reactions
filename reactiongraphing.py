@@ -85,13 +85,13 @@ def reactiongraphing(reactions, ks, C0):
     plt.xlim(0, steady_state_time)
     plt.ylim(0, None)
     plt.legend()
-    plt.title('Concentration vs Time', fontsize=16)
+    plt.title('Concentration vs. Time', fontsize=16)
     plt.xticks(fontsize=14)
     plt.yticks(fontsize=14)
     plt.show()
 # %%
-# reactions = ['A+B=C', 'B+C=D']
-# ks = [1, 1.5]
-# C0 = {'A': 1, 'B': 1, 'C': 0, 'D': 0}
-# reactiongraphing(reactions, ks, C0)
+reactions = ['A+B=C', 'B+C=D']
+ks = [1, 1.5]
+C0 = {'A': 1, 'B': 1, 'C': 0, 'D': 0}
+reactiongraphing(reactions, ks, C0)
 # %%
