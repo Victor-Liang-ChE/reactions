@@ -6,4 +6,5 @@ reactions = ['A+B=C', 'B+C=D']
 ks = [1, 1.5]
 C0 = {'A': 1, 'B': 1, 'C': 0, 'D': 0}
 reactiongraphing(reactions, ks, C0)
-![image](https://github.com/user-attachments/assets/bf032849-4440-4d52-9493-c687dd545506)
+![image](https://github.com/user-attachments/assets/6e22fbff-c626-4f45-aa86-936b54efce94)
+
