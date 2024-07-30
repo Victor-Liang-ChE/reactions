@@ -3,7 +3,7 @@ Make Concentration vs. Time graphs for multi-molecular and multi-step reactions
 
 Input the reactions as strings into a matrix, the rate constants into a matrix, and the initial concentration of each species into a dictionary
 
-Will automatically detect when the reactions have reached steady-state and will adjust abscissa accordingly
+Automatically detects when the reactions have reached steady-state and will adjust abscissa accordingly
 
 Example: 
 
