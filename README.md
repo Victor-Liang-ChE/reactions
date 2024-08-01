@@ -5,6 +5,10 @@ Input the reactions as strings into a matrix, the rate constants into a matrix, 
 
 Automatically detects when the reactions have reached steady-state and will adjust abscissa accordingly
 
+"=" is in the forward direction only
+
+For equilibrium reactions, input the forward reaction and the backwards reaction separately
+
 Example: 
 
 reactions = ['A+B=C', 'B+C=D']
